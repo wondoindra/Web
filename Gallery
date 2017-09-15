@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Our Gallery</title>
+<style type="text/css">
+#sitecontainer{
+	height:auto;
+	width:960px;
+	border:1px solid #000000;
+	margin:10px auto;
+	background-color:#525F70;
+}
+#header{
+	margin:5px;
+	height:300px;
+	width:auto;
+	border:1px solid #000000;
+}
+#menu{
+	margin:5px;
+	height:75px;
+	width:auto;
+	border:1px solid #525F70;
+	background-color:#525F70;
+}
+#content{
+	margin:5px;
+	height:670px;
+	width:auto;
+	border:1px solid #000000;
+	background-color:#352544;
+}
+#footer{
+	margin:5px;
+	height:50px;
+	width:auto;
+	border:1px solid #000000;
+	background-color:#221F23;
+}
+#footer p {
+	color:white;
+	font:14pt "Calibri";
+	text-align:center;
+	line-height:15px;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="style/testing.css"/>
+</head>
+<div id="sitecontainer">
+<div id="menu" style="font-size:20px; font-family:Impact; text-align:center;">
+<ul>
+<li><a href="Home.html" style="background-color:black; color:#E77917;">Home</a></li>
+<li><a href="Facilities.html" style="background-color:black; color:#E77917;">Facilities</a></li>
+<li><a href="Gallery.html" style="background-color:#E77917; color:black;">Gallery</a></li>
+<li><a href="AboutUs.html" style="background-color:black; color:#E77917;">About Us</a></li>
+<li><a href="Contact.html" style="background-color:black; color:#E77917;">Contact</a></li>
+</ul>
+</div>
+<div id="header">
+<img src="images/gallery.jpg" style="width:948px; height:300px; position:relative; bottom:0px;">
+</div>
+<div id="content">
+<img src="images/hotel.jpg" style="width:295px; height:200px; float:left; margin:10px;">
+<img src="images/lobby.jpg" style="width:295px; height:200px; margin:10px;">
+<img src="images/fronthotel.jpg" style="width:295px; height:200px; float:right; margin:10px;">
+<img src="images/familyroom.jpg" style="width:295px; height:200px; float:left; margin:10px;">
+<img src="images/bedroom.jpg" style="width:295px; height:200px; margin:10px;">
+<img src="images/deluxeroom.jpg" style="width:295px; height:200px; float:right; margin:10px;">
+<img src="images/team.jpg" style="width:295px; height:200px; float:left; margin:10px;">
+</div>
+<div id="footer">
+<p>Copyright &copy; 2015. WK Hotel Team. All Rights Reserved.</p>
+</div>
+</div>
+<body>
+</body>
+</html>
