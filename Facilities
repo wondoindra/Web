@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Facilities</title>
+<script language="javascript">
+function displayNext()
+{
+	x = (x === images.length - 1) ? 0 : x + 1;
+	document.getElementById("gambar").src = images[x];
+}
+function startTimer()
+{
+	setInterval(displayNext,3000);
+}
+var images = [],
+x = -1;
+images[0] = "images/spa.jpg";
+images[1] = "images/bar.jpg";
+images[2] = "images/workout.jpg";
+</script>
+<style type="text/css">
+#sitecontainer{
+	height:auto;
+	width:960px;
+	border:1px solid #000000;
+	margin:10px auto;
+	background-color:#525F70;
+}
+#header{
+	margin:5px;
+	height:300px;
+	width:auto;
+	border:1px solid #000000;
+}
+#menu{
+	margin:5px;
+	height:75px;
+	width:auto;
+	border:1px solid #525F70;
+	background-color:#525F70;
+}
+#content{
+	margin:5px;
+	height:auto;
+	width:auto;
+	border:1px solid #000000;
+	background-color:#352544;
+	padding-left:15px;
+	padding-right:15px;
+}
+#footer{
+	margin:5px;
+	height:50px;
+	width:auto;
+	border:1px solid #000000;
+	background-color:#221F23;
+}
+#footer p {
+	color:white;
+	font:14pt "Calibri";
+	text-align:center;
+	line-height:15px;
+}
+.fasilitas {
+	color:white;
+	font:20pt "Calibri";
+	padding-top:20px;
+	margin-top:0px;
+	text-align:center;
+}
+.spa{
+	color:white;
+	font:15pt "Calibri";
+	text-align:center;
+	padding-top:10px;
+	border-top:2px solid #D15908;
+	border-bottom:2px solid #D15908;
+}
+.bar{
+	color:white;
+	font:15pt "Calibri";
+	text-align:center;
+	padding-top:10px;
+	border-top:2px solid #D15908;
+	border-bottom:2px solid #D15908;
+}
+.workout{
+	color:white;
+	font:15pt "Calibri";
+	text-align:center;
+	padding-top:10px;
+	border-top:2px solid #D15908;
+	border-bottom:2px solid #D15908;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="style/testing.css"/>
+</head>
+<body onLoad="startTimer()">
+<div id="sitecontainer">
+<div id="menu" style="font-size:20px; font-family:Impact; text-align:center;">
+<ul>
+<li><a href="Home.html" style="background-color:black; color:#E77917;">Home</a></li>
+<li><a href="Facilities.html" style="background-color:#E77917; color:black;">Facilities</a></li>
+<li><a href="Gallery.html" style="background-color:black; color:#E77917;">Gallery</a></li>
+<li><a href="AboutUs.html" style="background-color:black; color:#E77917;">About Us</a></li>
+<li><a href="Contact.html" style="background-color:black; color:#E77917;">Contact</a></li>
+</ul>
+</div>
+<div id="header">
+<img id="gambar" onClick="displayNext()" src="images/spa.jpg" style="height:300px; width:948px; position:relative; bottom:0px;" alt=""/>
+</div>
+<div id="content">
+<h1 class="fasilitas">Facilities</h1>
+<h2 class="spa"><b style="font:20pt 'Calibri';">Spa & Wellness</b><br><br><img src="images/spa.jpg" style="width:900px; height:300px;"><br>
+Our hotel offer top-notch facilities and services, including saunas, steam rooms and Jacuzzi. Qualified therapists<br> can help you to enjoy the benefits of a healthy lifestyle.<br><br></h2><br>
+<h3 class="bar"><b style="font:20pt 'Calibri';">Bar</b><br><br><img src="images/bar.jpg" style="width:900px; height:300px;"><br>
+Our hotel bar has a good selection of beer, wine and other drinks. The perfect place to round off a long<br> conference day.</h3><br>
+<h4 class="workout"><b style="font:20pt 'Calibri';">Gym</b><br><br><img src="images/workout.jpg" style="width:900px; height:300px;"><br>
+Our gym is fully equipped with modern cardiovascular technology. En-suite changing rooms are provided with<br> direct lift access from bedroom floors.<br><br></h4>
+</div>
+<div id="footer">
+<p>Copyright &copy; 2015. WK Hotel Team. All Rights Reserved.</p>
+</div>
+</div>
+</body>
+</html>
