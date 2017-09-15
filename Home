@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WK Hotel</title>
+<script language="javascript">
+function displayNext()
+{
+	x = (x === images.length - 1) ? 0 : x + 1;
+	document.getElementById("gambar").src = images[x];
+}
+function startTimer()
+{
+	setInterval(displayNext,3000);
+}
+var images = [],
+x = -1;
+images[0] = "images/fronthotel.jpg";
+images[1] = "images/lobby.jpg";
+images[2] = "images/bedroom.jpg";
+</script>
+<style type="text/css">
+#sitecontainer{
+	height:auto;
+	width:960px;
+	border:1px solid #000000;
+	background-color:#525F70;
+	margin:10px auto;
+}
+#header{
+	margin:5px;
+	height:300px;
+	width:auto;
+	border:1px solid #000000;
+}
+#menu{
+	margin:5px;
+	height:75px;
+	width:auto;
+	border:1px solid #525F70;
+	background-color:#525F70;
+}
+#content{
+	margin:5px;
+	height:900px;
+	width:auto;
+	border:1px solid #000000;
+	background-color:#352544;
+}
+#contenttop{
+	border:1px solid #352544;
+	height:480px;
+	margin:5px;
+}
+#footer{
+	margin:5px;
+	height:50px;
+	width:auto;
+	border:1px solid #000000;
+	background-color:#221F23;
+}
+#footer p {
+	color:white;
+	font:14pt "Calibri";
+	text-align:center;
+	line-height:15px;
+}
+.deluxeroom{
+	border:2px solid #312E5B;
+	border-radius:20px;
+	width:400px;
+	margin-left:20px;
+	color:white;
+	background-color:#312E5B;
+	padding:15px;
+	font: 15pt "calibri";
+	float:left;
+}
+.familyroom{
+	border:1px solid #312E5B;
+	border-radius:20px;
+	width:410px;
+	margin-right:20px;
+	background-color:#312E5B;
+	color:white;
+	padding:15px;
+	font: 15pt "calibri";
+	float:right;
+	margin-top:13px;
+}
+.deluxeroom a{
+	font:15pt "calibri";
+	text-decoration:none;
+	display:block;
+	width:120px;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	background-color:#000000;
+	color:white;
+}
+.familyroom a{
+	font:15pt "calibri";
+	text-decoration:none;
+	display:block;
+	width:120px;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	background-color:#000000;
+	color:white;
+}
+#contentbot{
+	margin:5px;
+	margin-top:50px;
+	padding-left:15px;
+	padding-right:15px;
+}
+.home{
+	border-top:2px solid #D15908;
+	border-bottom:2px solid #D15908;
+	text-align:left;
+	font:15pt "calibri";
+	color:white;
+}
+.home2{
+	text-align:left;
+	font:15pt "calibri";
+	color:white;
+	border-bottom:2px solid #D15908;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="style/testing.css"/>
+</head>
+<body onLoad="startTimer()">
+<div id="sitecontainer">	
+<div id="menu" style="font-size:20px; font-family:Impact; text-align:center;">
+<ul>
+<li><a href="Home.html" style="background-color:#E77917; color:black;">Home</a></li>
+<li><a href="Facilities.html" style="background-color:black;; color:#E77917;">Facilities</a></li>
+<li><a href="Gallery.html" style="background-color:black; color:#E77917;">Gallery</a></li>
+<li><a href="AboutUs.html" style="background-color:black; color:#E77917;">About Us</a></li>
+<li><a href="Contact.html" style="background-color:black; color:#E77917;">Contact</a></li>
+</ul>
+</div>
+<div id="header">
+<img id="gambar" onClick="displayNext()" src="images/fronthotel.jpg" style="height:300px; width:948px; position:relative; bottom:0px;" alt=""/>
+</div>
+<div id="content">
+<div id="contenttop">
+<h1 class="deluxeroom">
+<img src="images/deluxeroom.jpg" style="width:400px;">
+Deluxe Room
+<p>
+Our deluxe room comes with 1 bed for 2 people with comfortable room suitable for you and your partner to settle in.<br>
+</p>
+<a href="DeluxeRoom.html" style="border:1px solid #000000; text-decoration:none;">Read More</a>
+</h1>
+<h2 class="familyroom">
+<img src="images/familyroom.jpg" style="width:410px; height:246px;">
+Family Room
+<p>
+1 double bed and 2 single beds for the Family Room will ensure your family to be comfortable.
+</p>
+<br>
+<a href="FamilyRoom.html" style="text-decoration:none; border:1px solid #000000;">Read More</a>
+</h2>
+</div>
+<div id="contentbot">
+<h1 class="home"><br>5 nights with the price of 4
+<p>We want to make your day stay great with us so we are offering 1 extra night when you are staying for 4 nights at our hotel. We have Halloween events with many prizes to win with your stay with us and have some fun. 
+</p>
+</h1>
+<h2 class="home2">Christmas Event
+<p>To celebrate Christmas , you can enjoy staying at our hotel with 30% price off the normal price. It only applies if you book our room for christmas within 2 weeks from now. We look forward for your stay.
+</p>
+</h2>
+</div>
+</div>
+<div id="footer">
+<p>Copyright &copy; 2015. WK Hotel Team. All Rights Reserved.</p>
+</div>
+</div>
+</body>
+</html>
