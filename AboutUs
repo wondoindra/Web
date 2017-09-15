@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About</title>
+<style type="text/css">
+#sitecontainer{
+	height:auto;
+	width:960px;
+	border:1px solid #000000;
+	margin:10px auto;
+	background-color:#525F70;
+}
+#header{
+	margin:5px;
+	height:300px;
+	width:auto;
+	border:1px solid #000000;
+}
+#menu{
+	margin:5px;
+	height:75px;
+	width:auto;
+	border:1px solid #525F70;
+	background-color:#525F70;
+}
+#content{
+	margin:5px;
+	height:1150px;
+	width:auto;
+	border:1px solid #000000;
+	background-color:#352544;
+	padding-left:15px;
+	padding-right:15px;
+}
+#footer{
+	margin:5px;
+	height:50px;
+	width:auto;
+	border:1px solid #000000;
+	background-color:#221F23;
+}
+#footer p {
+	color:white;
+	font:14pt "Calibri";
+	text-align:center;
+	line-height:15px;
+}
+.tentang {
+	color:white;
+	text-align:center;
+	font:20pt "calibri";
+}
+.hotel{
+	color:white;
+	font:15pt "Calibri";
+	text-align:center;
+	padding-top:10px;
+	border-top:2px solid #D15908;
+	border-bottom:2px solid #D15908;
+}
+.cs{
+	color:white;
+	font:15pt "Calibri";
+	text-align:center;
+	padding-top:10px;
+	border-top:2px solid #352544;
+	border-bottom:2px solid #D15908;
+}
+.fasilitas{
+	color:white;
+	font:15pt "Calibri";
+	text-align:center;
+	padding-top:10px;
+	border-top:2px solid #352544;
+	border-bottom:2px solid #D15908;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="style/testing.css"/>
+</head>
+<body>
+<div id="sitecontainer">
+<div id="menu" style="font-size:20px; font-family:Impact; text-align:center;">
+<ul>
+<li><a href="Home.html" style="background-color:black; color:#E77917;">Home</a></li>
+<li><a href="Facilities.html" style="background-color:black; color:#E77917;">Facilities</a></li>
+<li><a href="Gallery.html" style="background-color:black; color:#E77917;">Gallery</a></li>
+<li><a href="AboutUs.html" style="background-color:#E77917; color:black;">About Us</a></li>
+<li><a href="Contact.html" style="background-color:black; color:#E77917;">Contact</a></li>
+</ul>
+</div>
+<div id="header">
+<img src="images/about.jpg" style="width:948px; height:300px; position:relative; bottom:0px;">
+</div>
+<div id="content">
+<h1 class="tentang">About Us<br>
+<h2 class="hotel"><img src="images/hotel.jpg" style="width:700px;height:250px;"><br>
+WK Hotel was established in 2000 and has been operating for more than 10 years and <br>was labelled as one of the best hotel in Batam.<br><br><br></h2>
+<h3 class="cs"><img src="images/contact_us.jpg" style="width:700px; height:250px;"><br>
+Our experienced customer-services are ready to help you and help with your requests.<br><br><br></h3>
+<h4 class="fasilitas"><img src="images/dine.jpg" style="width:700px; height:250px;"><br>
+Take a look at our facilities we have that might make you feel comfortable and relaxed.<br><br></h4>
+</h1>
+</div>
+<div id="footer">
+<p>Copyright &copy; 2015. WK Hotel Team. All Rights Reserved.</p>
+</div>
+</div>
+</body>
+</html>
