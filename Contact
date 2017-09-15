@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact Us</title>
+<style type="text/css">
+#sitecontainer{
+	height:auto;
+	width:960px;
+	border:1px solid #000000;
+	margin:10px auto;
+	background-color:#525F70;
+}
+#header{
+	margin:5px;
+	height:300px;
+	width:auto;
+	border:1px solid #000000;
+}
+#menu{
+	margin:5px;
+	height:75px;
+	width:auto;
+	border:1px solid #525F70;
+	background-color:#525F70;
+}
+#content{
+	margin:5px;
+	height:670px;
+	width:auto;
+	border:1px solid #000000;
+	background-color:#352544;
+	padding-left:15px;
+	padding-right:15px;
+}
+#footer{
+	margin:5px;
+	height:50px;
+	width:auto;
+	border:1px solid #000000;
+	background-color:#221F23;
+}
+#footer p {
+	color:white;
+	font:14pt "Calibri";
+	text-align:center;
+	line-height:15px;
+}
+.kontak {
+	color:white;
+	text-align:center;
+	font:20pt "calibri";
+}
+.hotelteam {
+	color:white;
+	text-align:center;
+	font:20pt "calibri";
+	border-top:2px solid #D15908;
+	border-bottom:2px solid #D15908;
+	padding:15px;
+}
+.ceo {
+	color:white;
+	text-align:center;
+	font:20pt "calibri";
+	border-top:2px solid #D15908;
+	border-bottom:2px solid #D15908;
+	padding:15px;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="style/testing.css"/>
+</head>
+<body>
+<div id="sitecontainer">
+<div id="menu" style="font-size:20px; font-family:Impact; text-align:center;">
+<ul>
+<li><a href="Home.html" style="background-color:black; color:#E77917;">Home</a></li>
+<li><a href="Facilities.html" style="background-color:black; color:#E77917;">Facilities</a></li>
+<li><a href="Gallery.html" style="background-color:black; color:#E77917;">Gallery</a></li>
+<li><a href="AboutUs.html" style="background-color:black; color:#E77917;">About Us</a></li>
+<li><a href="Contact.html" style="background-color:#E77917; color:black;">Contact</a></li>
+</ul>
+</div>
+<div id="header">
+<img src="images/customerservice.jpg" style="width:948px; height:300px; position:relative; bottom:0px;">
+</div>
+<div id="content">
+<h1 class="kontak">WK Hotel Team are ready at your service!
+<h2 class="hotelteam">WK Hotel Team<br>
+Email: team@wkhotel.com</h2><br><br><br>
+<h3 class="ceo">WK Hotel Owner and CEO<br>
+Kendy<br>
+Email: kendy@wkhotel.com<br></h3>
+</h1>
+</div>
+<div id="footer">
+<p>Copyright &copy; 2015. WK Hotel Team. All Rights Reserved</p>
+</div>
+</div>
+</body>
+</html>
