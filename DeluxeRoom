@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Deluxe Room</title>
+<style type="text/css">
+#sitecontainer{
+	height:auto;
+	width:960px;
+	border:1px solid #000000;
+	margin:10px auto;
+	background-color:#525F70;
+}
+#menu{
+	margin:5px;
+	height:75px;
+	width:auto;
+	border:1px solid #525F70;
+	background-color:#525F70;
+}
+#content{
+	padding-top:20px;
+	margin:5px;
+	height:500px;
+	width:auto;
+	border:1px solid #000000;
+	background-color:#352544;
+	padding-left:15px;
+	padding-right:15px;
+}
+#footer{
+	margin:5px;
+	height:50px;
+	width:auto;
+	border:1px solid #000000;
+	background-color:#221F23;
+}
+#footer p {
+	color:white;
+	font:14pt "Calibri";
+	text-align:center;
+	line-height:15px;
+}
+.deluxe{
+	font:20pt "Calibri";
+	text-align:center;
+	color:white;
+}
+.deluxe p{
+	font:15pt "Calibri";
+	color:white;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="style/testing.css"/>
+</head>
+<body>
+<div id="sitecontainer">
+<div id="menu" style="font-size:20px; font-family:Impact; text-align:center;">
+<ul>
+<li><a href="Home.html" style="background-color:#E77917; color:black;">Home</a></li>
+<li><a href="Facilities.html" style="background-color:black; color:#E77917">Facilities</a></li>
+<li><a href="Gallery.html" style="background-color:black; color:#E77917;">Gallery</a></li>
+<li><a href="AboutUs.html" style="background-color:black; color:#E77917;">About Us</a></li>
+<li><a href="Contact.html" style="background-color:black; color:#E77917;">Contact</a></li>
+</ul>
+</div>
+<div id="content">
+<h1 class="deluxe">Deluxe Room<br><br>
+<img src="images/deluxeroom.jpg" style="width:400px; float:left;">
+<p>
+Our deluxe room comes with 1 bed for 2 people with comfortable room suitable for you and your partner to<br> settle in.
+This room comes with spa and bar packet that will make you enjoy your stay.
+</p>
+<b>$150/night</b><br><br>
+<a href="#" style="text-decoration:none; border:1px solid #000000; color:white; background-color:black; width:150px; display:block; float:right; position:relative; right:180px; border-radius:20px;">Book Now</a>
+</h1>
+</div>
+<div id="footer">
+<p>Copyright &copy; 2015. WK Hotel Team. All Rights Reserved.</p>
+</div>
+</div>
+</body>
+</html>
